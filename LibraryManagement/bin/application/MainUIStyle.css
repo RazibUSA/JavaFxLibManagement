@@ -1,0 +1,30 @@
+.root {
+  -fx-background-color: #fff; 
+ 
+}
+.button {
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#800080,  	#663399);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+-fx-background-color: linear-gradient( 	#663399, #800080);
+}
+
+.hyperlink{
+-fx-underline:false;
+-fx-text-alignment:center;
+-fx-text-fill: white;
+-fx-background-color: linear-gradient(#99006F,  	#9900DD);
+       }
+.hyperlink:hover{
+-fx-text-fill:#CCFF66;
+-fx-background-color: linear-gradient( 	#9900DD, #99006F);
+        }
+
+.table-row-cell:false-value .table-cell {
+    -fx-text-fill: chartreuse;    
+} 
